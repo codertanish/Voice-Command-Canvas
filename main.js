@@ -52,7 +52,7 @@ function draw() {
     speak();
     draw_apple = "";
     for(let i=1; i<=to_number; i++) {
-     x = Math.floor(Math.random() * 1400);
+     x = Math.floor(Math.random() * 1200);
      y = Math.floor(Math.random() * 500);
      image(apple, x, y, 50, 50)
     }
